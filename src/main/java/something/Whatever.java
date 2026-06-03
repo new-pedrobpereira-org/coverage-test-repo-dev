@@ -9,6 +9,8 @@ public class Whatever implements Serializable {
 
     public String returnWhat(String what, boolean whatIf) {
 
+        String stff = "unsued";
+
         System.out.println();
         System.out.println();
 
@@ -37,7 +39,6 @@ public class Whatever implements Serializable {
             }
         }
         else {
-            System.out.println();
             System.out.println();
             System.out.println();
             return "nothing";

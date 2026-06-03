@@ -1,5 +1,6 @@
 package something;
 
+import javax.crypto.spec.SecretKeySpec;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.Serializable;
@@ -61,9 +62,12 @@ public class Whatever implements Serializable {
         else {
             System.out.println();
             System.out.println();
-            System.out.println();
             return "nothing";
         }
+    }
+
+    public void bad() {
+        SecretKeySpec secretKeySpec = new SecretKeySpec("my secret here".getBytes(), "AES");
     }
 
     public void readObject(java.io.ObjectInputStream in) throws IOException, ClassNotFoundException {

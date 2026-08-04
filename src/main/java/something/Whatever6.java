@@ -4,7 +4,6 @@ public abstract class Whatever6 {
         private void foo() {
             int sum = 10
                     + 20
-
                     + 50;
         }
     }

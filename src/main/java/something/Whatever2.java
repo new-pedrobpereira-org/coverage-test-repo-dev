@@ -25,5 +25,6 @@ public class Whatever2 {
             System.out.println();
             return "nothing";
         }
+
     }
 }

@@ -26,5 +26,4 @@ public class Whatever2 {
             return "nothing";
         }
     }
-
 }

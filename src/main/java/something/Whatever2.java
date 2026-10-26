@@ -2,6 +2,8 @@ package something;
 
 public class Whatever2 {
 
+    private String stuff = null;
+
     public String returnWhat(String what, boolean whatIf) {
 
         if (whatIf) {
